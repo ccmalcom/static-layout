@@ -1,0 +1,53 @@
+header{
+    background-color: #632c4f;
+    height: 51px;
+    padding: 21px;
+    width: 100%;
+    margin: ;
+}
+
+nav{
+    width: 50%;
+    float: right;
+} 
+
+li{
+    display: inline;
+ 
+
+}
+
+#bigbox{
+    background-image: url(https://www.carolinacrown.org//images/2021/04/19/web_banner_12.jpg) ;
+}
+
+#missionbox{
+    background-color: white;
+}
+
+#quicklinks{
+ color: white;
+}
+
+.box1{
+    background-image: url(https://www.carolinacrown.org/images/2020/06/15/supportimg.jpg) ;
+    height: 300px;
+}
+
+.box2{
+    background-image: url(https://www.carolinacrown.org/images/2020/05/06/registerphoto.jpg);
+    height: 300px;
+}
+
+.box3{
+    background-image: url(https://www.carolinacrown.org/images/2020/06/15/eventsimg.jpg);
+    height: 300px;
+}
+
+.box4{
+    background-image: url(https://www.carolinacrown.org/images/2020/06/15/modeled2femaletee.jpg);
+    height: 300px;
+}
+#latestnews{
+
+}
