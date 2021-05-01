@@ -1,28 +1,198 @@
+body{
+    font-family: 'Quicksand', Arial, sans-serif;
+    font-size: 15px;
+    color: #737373;
+    line-height: 26px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
 header{
     background-color: #632c4f;
-    height: 51px;
+    height: 88px;
     padding: 21px;
-    width: 100%;
-    margin: ;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.logobox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 350px 0 350px;
 }
 
 nav{
-    width: 50%;
-    float: right;
+    color: #fff;
+    width: 850px;
+    padding: 15px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 0;
+    font-style: bold;
+}
+
+/* .abtDropdown{
+    float: left;
+    overflow: hidden;
+}
+
+.abtDropdown .abtDropdownContent{
+    font-size: inherit;
+    border: 1px solid black;
+    outline: none;
+    color: #fff;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.abtDropdownContent{
+    display: none;
+    position: absolute;
+    background-color: #632c4f;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0px;
+}
+
+.abtDropdownContent a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.abtDropdownContent a:hover{
+    color: #c59d5f;
+}
+
+.abtDropdown:hover .abtDropdownContent{
+    display: block;
+} */
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 100px 0 100px;
+
 } 
 
 li{
-    display: inline;
- 
-
+    list-style: none;
+    
 }
 
+/* .give{
+    background-color: #ce9f51;
+    height: 88px; ? help
+} */
+
 #bigbox{
-    background-image: url(https://www.carolinacrown.org//images/2021/04/19/web_banner_12.jpg) ;
+    background-image: url(https://www.carolinacrown.org//images/2021/04/19/web_banner_12.jpg);
+    width: 100vw;
+    height: 540px;
+    background-position: center;
+    background-size: cover;
+    padding-top: 121px;
+    padding-left: 238px;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+#bigbox::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.1)
+}
+
+.Jewels, .mwm, .OurJourney{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+.Jewels{
+    color: #fff;
+    background-color: #c59d5f;
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+    width: 302px;
+    height: 79px;
+    /* padding: 15px 20px 15px 20px; */
+    margin-top: 20px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    
+}
+
+.Jewels h2{
+    font-size: 38px ;
+    font-weight: 1; /* ? this works, why */
+    letter-spacing: -2px;
+    position: relative;
+    bottom: 5px;
+    
+}
+.mwm{
+    color: #fff;
+    font-size: 38px;
+    background-color: #c59d5f;
+    font-weight: 300;
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+    width: 413px;
+    height: 79px;
+    padding: 15px 20px 15px 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+.mwm h2{
+    font-size: 38px ;
+    font-weight: 1; /* ? this works, why */
+    letter-spacing: -2px;
+    position: relative;
+    bottom: 20px;
+    
+}
+
+.OurJourney {
+    font-family: 'roboto';
+    border-color: transparent;
+    background: #fff;
+    height: 41px;
+    width: 220px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    border-width: 1px;
+    margin-top: 40px;    
+    box-sizing: border-box;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.OurJourney:hover{
+    background-color: black;
+    color: white;
+    border-color: black;
+    transition-duration: 800ms;
 }
 
 #missionbox{
     background-color: white;
+    width: 100%;
+    height: 181.5px;
+    padding: 34px 0 34px 0;
 }
 
 #quicklinks{
