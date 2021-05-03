@@ -58,6 +58,7 @@ nav{
     height: 500px;
     width: 200px;
     margin-top: 45px;
+    text-transform: uppercase;
 }
 
 .dropdown-content li{
@@ -72,6 +73,7 @@ nav{
     justify-content: space-evenly;
     /* height: 200px; */
 }
+
 
 
 
