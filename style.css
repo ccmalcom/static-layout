@@ -44,8 +44,39 @@ nav{
     font-style: bold;
 }
 
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #632c4f;
+    z-index: 1;
+    height: 200px;
+    width: fit-content;
+}
+
+.dropdown-content li{
+    display: block;
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
+    height: 200px;
+    width: fit-content;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
 .home{
     color: #c59d5f;
+}
+
+.give{
+    background-color: #c59d5f;
+    height: 100%;
 }
 
 .home:hover{
@@ -53,7 +84,7 @@ nav{
     transition-duration: 500ms;
 }
 
-ul{
+.mainnav{
     display: flex;
     justify-content: space-evenly;
     padding: 0 100px 0 100px;
