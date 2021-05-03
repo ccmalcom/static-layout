@@ -42,6 +42,7 @@ nav{
     letter-spacing: 1px;
     line-height: 0;
     font-style: bold;
+    cursor: pointer;
 }
 
 .dropdown{
@@ -54,21 +55,25 @@ nav{
     position: absolute;
     background-color: #632c4f;
     z-index: 1;
-    height: 200px;
-    width: fit-content;
+    height: 500px;
+    width: 200px;
+    margin-top: 45px;
 }
 
 .dropdown-content li{
     display: block;
-    /* flex-direction: column; */
-    /* justify-content: space-evenly; */
-    height: 200px;
+    height: fit-content;
     width: fit-content;
 }
 
 .dropdown:hover .dropdown-content{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* height: 200px; */
 }
+
+
 
 .home{
     color: #c59d5f;
