@@ -18,22 +18,22 @@ header{
     box-sizing: border-box;
     position:sticky;
     top: 0;
-    z-index: 9999;
+    z-index: 100;
 }
 
 
 .logobox{
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    /* align-items: center; */ 
+        
 }
-
 
 
 nav{
     color: #fff;
     width: 900px;
+    height: 100%;
     /* padding: 15px; */
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-size: 13px;
@@ -43,6 +43,10 @@ nav{
     line-height: 0;
     font-style: bold;
     cursor: pointer;
+}
+
+.mainnav a{
+    text-decoration: none;
 }
 
 .dropdown{
@@ -55,36 +59,53 @@ nav{
     position: absolute;
     background-color: #632c4f;
     z-index: 1;
-    height: 500px;
+    /* height: 500px; */
     width: 200px;
-    margin-top: 45px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-top: 45px;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+input{
+    border: none;
+    margin-top: -20px;
+}
+
+
+::placeholder{
+    color: white;
 }
 
 .dropdown-content li{
     display: block;
-    height: fit-content;
-    width: fit-content;
+    /* height: fit-content;
+    width: fit-content; */
+    line-height: 40px;
 }
 
 .dropdown:hover .dropdown-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    /* height: 200px; */
+    display: block;
+   
 }
-
-
 
 
 .home{
     color: #c59d5f;
-    text-decoration: none;
 }
 
 .give{
-    background-color: #c59d5f;
-    height: 100%;
+    z-index: 100;
+}
+.givesquare{
+    height: 88px;
+    width: 70px;
+    background-color: #ce9f51;
+    position: absolute;
+    top: 0;
+    right: 493px;
+    z-index: 3;
 }
 
 .home:hover{
@@ -94,20 +115,20 @@ nav{
 
 .mainnav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
     padding: 0 100px 0 100px;
+    height: 100%;
 
 } 
 
 li{
     list-style: none;
-    
+    position: relative;
+    display: block;
 }
 
-/* .give{
-    background-color: #ce9f51;
-    height: 88px; ? help
-} */
+
 
 #bigbox{
     background-image: url(https://www.carolinacrown.org//images/2021/04/19/web_banner_12.jpg);
